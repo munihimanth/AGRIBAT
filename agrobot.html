@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AgriBat - Unified Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+      color: #fff;
+    }
+    header {
+      background: #2c3e50;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    #home {
+      background: linear-gradient(to right, #a8e063, #56ab2f);
+    }
+    #about {
+      background: linear-gradient(to right, #56ccf2, #2f80ed);
+    }
+    #resources {
+      background: linear-gradient(to right, #11998e, #38ef7d);
+    }
+    #contact {
+      background: linear-gradient(to right, #f7971e, #ffd200);
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: rgba(0,0,0,0.4);
+      padding: 30px;
+      border-radius: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background: #fff;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AgriBat</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h2>Welcome to AgriBat</h2>
+      <p>AgriBat is your all-in-one agricultural companion providing tools and knowledge to empower farmers with technology-driven solutions.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About AgriBat</h2>
+      <p>AgriBat is built to revolutionize farming through smart solutions. We aim to help farmers by offering soil testing, climate tracking, and crop advice based on data analytics and expert insights.</p>
+      <p>AgriBat connects farmers with trusted markets, government schemes, expert trainers, and tools to support sustainable agriculture. Whether you're a small-scale grower or a large farm owner, AgriBat is designed for you.</p>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources">
+    <div class="container">
+      <h2>Agriculture Resources</h2>
+      <ul>
+        <li><strong>Soil Testing Kits:</strong> Analyze your soil’s nutrients for better planting decisions.</li>
+        <li><strong>Weather Insights:</strong> Get reliable weather forecasts for timely planting and harvesting.</li>
+        <li><strong>Pest Management:</strong> AI tools detect plant diseases early and suggest eco-friendly solutions.</li>
+        <li><strong>Fertilizer & Seeds:</strong> Find the right seeds and fertilizers based on your crop and region.</li>
+        <li><strong>Irrigation Systems:</strong> Automate watering with sensor-based smart irrigation tools.</li>
+        <li><strong>Training Content:</strong> Watch expert-led videos and tutorials to level up your farming techniques.</li>
+        <li><strong>Marketplace:</strong> Buy or sell produce, seeds, or tools directly on AgriBat.</li>
+        <li><strong>Storage & Logistics:</strong> Plan for post-harvest support including storage and transport.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your email" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Your message..."></textarea>
+
+        <br><br>
+        <input type="submit" value="Send Message" />
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
